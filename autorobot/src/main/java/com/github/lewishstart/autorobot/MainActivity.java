@@ -6,7 +6,10 @@ import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-
+/**
+ * author: sundong
+ * created at 2018/3/22 17:58
+ */
 public class MainActivity extends AppCompatActivity {
     private Button mBtnOpenSetting;
     @Override
