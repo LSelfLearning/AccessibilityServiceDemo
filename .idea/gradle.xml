@@ -8,7 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app2" />
+            <option value="$PROJECT_DIR$/WechatAutoReply" />
+            <option value="$PROJECT_DIR$/XYSDemo" />
             <option value="$PROJECT_DIR$/autorobot" />
           </set>
         </option>

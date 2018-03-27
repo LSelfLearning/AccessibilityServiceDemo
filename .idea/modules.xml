@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccessibilityServiceDemo.iml" filepath="$PROJECT_DIR$/AccessibilityServiceDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app2/app2.iml" filepath="$PROJECT_DIR$/app2/app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WechatAutoReply/WechatAutoReply.iml" filepath="$PROJECT_DIR$/WechatAutoReply/WechatAutoReply.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XYSDemo/XYSDemo.iml" filepath="$PROJECT_DIR$/XYSDemo/XYSDemo.iml" />
+      <module fileurl="file://E:\GitHub\AccessibilityServiceDemo\XYSDemo\app2.iml" filepath="E:\GitHub\AccessibilityServiceDemo\XYSDemo\app2.iml" />
       <module fileurl="file://$PROJECT_DIR$/autorobot/autorobot.iml" filepath="$PROJECT_DIR$/autorobot/autorobot.iml" />
     </modules>
   </component>

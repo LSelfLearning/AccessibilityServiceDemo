@@ -16,13 +16,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mBtnOpenSetting = findViewById(R.id.mBtnOpenSetting);
-        mBtnOpenSetting.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.mBtnOpenSetting).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
+            }
+        });
+        findViewById(R.id.mBtnJiaQun).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RobotService.class);
+                intent.putExtra("action","jiaqun");
+                startService(intent);
             }
         });
     }

@@ -144,6 +144,23 @@ public abstract class BaseAccessibilityService extends AccessibilityService {
         return null;
     }
 
+//    public AccessibilityNodeInfo findViewByContentDesc(String text, boolean clickable) {
+//        AccessibilityNodeInfo accessibilityNodeInfo = getRootInActiveWindow();
+//        if (accessibilityNodeInfo == null) {
+//            return null;
+//        }
+//        accessibilityNodeInfo.get
+//        CharSequence contentDescription = accessibilityNodeInfo.getContentDescription();
+//        if (nodeInfoList != null && !nodeInfoList.isEmpty()) {
+//            for (AccessibilityNodeInfo nodeInfo : nodeInfoList) {
+//                if (nodeInfo != null && (nodeInfo.isClickable() == clickable)) {
+//                    return nodeInfo;
+//                }
+//            }
+//        }
+//        return null;
+//    }
+
     /**
      * 查找对应ID的View
      *

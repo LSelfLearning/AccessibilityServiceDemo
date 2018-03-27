@@ -3,4 +3,5 @@
                        android:accessibilityEventTypes="typeAllMask"
                        android:accessibilityFeedbackType="feedbackSpoken"
                        android:canRetrieveWindowContent="true"
-                       android:notificationTimeout="1000"/>
+                       android:packageNames="com.tencent.mm"
+                       android:notificationTimeout="300"/>

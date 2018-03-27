@@ -12,4 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 
+    <Button
+        android:layout_below="@id/mBtnOpenSetting"
+        android:id="@+id/mBtnJiaQun"
+        android:text="加群"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
 </RelativeLayout>

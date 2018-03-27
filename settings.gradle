@@ -1,1 +1,1 @@
-include ':app2', ':autorobot'
+include ':XYSDemo', ':autorobot', 'WechatAutoReply'
